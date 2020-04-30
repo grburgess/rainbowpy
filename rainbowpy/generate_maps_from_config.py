@@ -19,11 +19,7 @@ def add_custom_cmaps():
         with open(user_maps_file, "r") as f:
 
             cmaps = yaml.load(f, Loader=yaml.SafeLoader)
-            
-            
+
         for map_name, colors in cmaps.items():
 
-            print(f"{map_name}")
-            
-            ColorMap.from_hex(list(colors.keys()),
-                              discrete=False, name=map_name)
+            ColorMap.from_hex(*colors, discrete=False, name=map_name)
