@@ -26,7 +26,7 @@ class ColorMap(object):
             NotImplementedError()
 
         if name is not None:
-            print(f"{name}")
+            
             cm.register_cmap(name=name, cmap=self._cmap)
 
     @property
