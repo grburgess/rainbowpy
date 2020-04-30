@@ -1,6 +1,11 @@
 # rainbowpy
 some of my own custom color tools
 
+```bash
+pip install rainbowpy
+```
+
+
 ## quick intro
 
 rainbowpy is a simple tool to handle building color maps from a list of colors. There will likely me more features in the future.
