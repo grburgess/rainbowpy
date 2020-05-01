@@ -1,4 +1,17 @@
+[![Travis CI w/ Logo](https://img.shields.io/travis/grburgess/rainbowpy/master.svg?logo=travis)](https://travis-ci.org/grburgess/rainbowpy)
+[![codecov](https://codecov.io/gh/grburgess/rainbowpy/branch/master/graph/badge.svg)](https://codecov.io/gh/grburgess/rainbowpy)
+![PyPI](https://img.shields.io/pypi/v/rainbowpy?style=plastic)
+## status
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/grburgess/rainbowpy/master?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/grburgess/rainbowpy?style=for-the-badge)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/grburgess/rainbowpy?style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/grburgess/rainbowpy?style=for-the-badge)
+
+
 # rainbowpy
+
+![alt text](https://raw.githubusercontent.com/grburgess/rainbowpy/master/logo.png)
+
 some of my own custom color tools
 
 ```bash
@@ -80,3 +93,5 @@ ax.scatter(array_dg[:, 0], array_dg[:, 1], c=colors, cmap="iri")
 ![png](rainbowpy_2_1.png)
 
 
+
+Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
